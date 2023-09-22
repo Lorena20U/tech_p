@@ -65,7 +65,7 @@ const TokenScreen = () => {
           <TokenDetails title="Maximum Supply" value={millify(12000)} />
           <TokenDetails
             title="Token Address"
-            value="0xEeC5D1942255D91396d416f881Ce8F43f4E4517C"
+            value="0xeeC5D1942255D91396d416f881Ce8F43f4E4517C"
           />
         </div>
       </div>
