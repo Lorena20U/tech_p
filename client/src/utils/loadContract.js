@@ -3,7 +3,7 @@ import { lyconICOAddress, lyconICOAbi } from "./constants";
 import { toast } from "react-toastify";
 
 async function loadContract(signer, chainId, setContract, address) {
-  if (chainId !== 5) {
+  if (chainId !== 11155111) {
     toast.error(
       "Please Change your network to Sepolia Network for Buying Tokens"
     );

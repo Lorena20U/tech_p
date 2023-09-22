@@ -16,7 +16,7 @@ const TransactionScreen = () => {
 
   const handleUserTransaction = async () => {
     const data = await userTransactions(
-      `https://api-sepolia.etherscan.io/api?module=logs&action=getLogs&fromBlock=0&toBlock=latest&address=0xeec5d1942255d91396d416f881ce8f43f4e4517c&topic0=0x2e206bbdd5787cd6d3e97144dec044f9f15dd77a257afd27fa70cad6f03feae3&apikey=${process.env.REACT_APP_ETHERSCAN_API}`
+      `https://api-sepolia.etherscan.io/api?module=logs&action=getLogs&fromBlock=0&toBlock=latest&address=0x521db071163a28a2b235Cb6D9915dA97E7C94AE8&topic0=0x2e206bbdd5787cd6d3e97144dec044f9f15dd77a257afd27fa70cad6f03feae3&apikey=${"594PRQFF18JDNW2YNYMWXYP9REXZ4KWIG2"}`
     );
     setAllTransaction(data);
 
@@ -25,10 +25,10 @@ const TransactionScreen = () => {
     }
 
     const yourTx = await userTransactions(
-      `https://api-sepolia.etherscan.io/api?module=logs&action=getLogs&fromBlock=0&toBlock=latest&address=0xeec5d1942255d91396d416f881ce8f43f4e4517c&topic0=0x2e206bbdd5787cd6d3e97144dec044f9f15dd77a257afd27fa70cad6f03feae3&topic2=0x000000000000000000000000${account.address.substring(
+      `https://api-sepolia.etherscan.io/api?module=logs&action=getLogs&fromBlock=0&toBlock=latest&address=0x521db071163a28a2b235Cb6D9915dA97E7C94AE8&topic0=0x2e206bbdd5787cd6d3e97144dec044f9f15dd77a257afd27fa70cad6f03feae3&topic2=0x000000000000000000000000${account.address.substring(
         2,
         42
-      )}&apikey=${process.env.REACT_APP_ETHERSCAN_API}`
+      )}&apikey=${"594PRQFF18JDNW2YNYMWXYP9REXZ4KWIG2"}`
     );
 
     setYourTransaction(yourTx);
