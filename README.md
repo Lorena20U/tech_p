@@ -1,4 +1,4 @@
-# ICO Contract YAC Token 👋
+# ICO Contract YAC Token 🪙
 
 ![Version](https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000)
 
@@ -9,7 +9,7 @@ El objetivo general es desarrollar un contrato inteligente para una Oferta Inici
 - Haber configurado una Wallet en Metamask.
 - Tener Node.js installado. Si no, descarguelo [aquí.](https://nodejs.org/en/download)
 
-Empecemos! 🚀
+Empecemos!
 
 ## Requerimientos
 - Nombre del Token: A elección del alumno (Ejemplo: Yacoin Token)

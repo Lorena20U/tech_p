@@ -221,7 +221,7 @@ function ICOToken({ crowdsaleAddress }: Props) {
               </div>
               <div className="stat">
                 <div className="stat-title">Price</div>
-                <div className="stat-value">{formatUnits(price, "wei")} Wei</div>
+                <div className="stat-value">{formatUnits(price, "wei")} YAC</div>
               </div>
               <div className="stat">
                 <div className="stat-title">Order Quantity</div>

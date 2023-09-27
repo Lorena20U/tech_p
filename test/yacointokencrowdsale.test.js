@@ -45,7 +45,7 @@ describe("YACoinTokenCrowdsale", () => {
     const closeTime = openingTime + duration.weeks(1); // 1 week
 
     const YACoinTokenCrowdsale = await ethers.getContractFactory("YACoinTokenCrowdsale");
-    const rate = 120; // 500 wei per token
+    const rate = 120; // 500 yacoin per token
     const yaCoinTokenCrowdsale = await YACoinTokenCrowdsale.deploy(
       rate,
       owner,
