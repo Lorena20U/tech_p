@@ -1,31 +1,18 @@
-# Smart Contract
-.vscode
+node_modules
+$
+.DS_Store
+dist
+dist-ssr
+*.local
 
-# dependencies
-/smart-contracts/node_modules
+node_modules
+.env
+.envrc
 
-#env
-/smart-contracts/.env
+#Hardhat files
+cache
+artifacts
 
-#artifacts
-/smart-contracts/cache
-/smart-contracts/artifacts
-
-# Client
-
-# dependencies
-/client/node_modules
-
-# env
-/client/.env
-
-# node modules extra
-/node_modules
-
-
-# testing
-/client/coverage
-
-# production
-/client/build
-
+coverage
+.eslintcache
+.openzeppelin/*.json
