@@ -4,6 +4,13 @@
 
 El objetivo general es desarrollar un contrato inteligente para una Oferta Inicial de Monedas (ICO, por sus siglas en inglés) con el objetivo de recaudar 100 Sepolia-ETH. Además, crear una interfaz de usuario simple para interactuar con el contrato.
 
+
+## Link
+Adquiere tus Yacoin desde [aquí.](https://tech-p-ico.vercel.app/)
+
+Para poder compartir la página, se utilizó [Vercel.](https://vercel.com/) 
+
+
 ## Prerequisitos
 
 - Haber configurado una Wallet en Metamask.
